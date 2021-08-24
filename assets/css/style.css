@@ -8,7 +8,7 @@
     color:black; 
     font-family: arial; 
     font-weight: 700; 
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .nirmal_logo1{
@@ -21,7 +21,20 @@
 .slider-area{
     height:610px;
 }
-
-
+@media only screen and (min-width: 992px){
+    .single-services{
+        justify-content: center;
+    }
+}
+/* @media only screen and (width: 1200px){
+    .main-header .main-menu ul li a{
+        padding:none;
+    }
+} */
+/* @media only screen and (min-width: 1166){
+    .main-header .main-menu ul li a{
+        padding:none;
+    }
+} */
 
 
